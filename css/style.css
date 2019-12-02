@@ -772,8 +772,6 @@ footer .footer-copyright {
   }
 
 	.main-home {
-	  background: url('../images/QuantumComputing-Mobile.jpg') no-repeat;
-	  height: 100vh;
+	  background: url('../images/QuantumComputing.jpeg') no-repeat;
 	}
-
 }
