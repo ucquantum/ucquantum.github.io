@@ -771,10 +771,3 @@ footer .footer-copyright {
     padding-bottom: 60px;
   }
 }
-
-@media only screen and (min-width: 480px){
-
-	.main-home {
-		 background: url('../images/QuantumComputing-Mobile.jpg') no-repeat;
-	}
-}
