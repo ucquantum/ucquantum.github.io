@@ -775,10 +775,6 @@ footer .footer-copyright {
 @media only screen and (max-width: 480px){
 
 	.main-home {
-		 background: url('../images/QuantumComputing-Mobile.jpeg') no-repeat;
+		 background: url('../images/QuantumComputing-Mobile.jpg') no-repeat;
 	}
-
-
-
-
 }
