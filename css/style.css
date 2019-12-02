@@ -770,8 +770,15 @@ footer .footer-copyright {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+}
+
+@media only screen and (max-width: 480px){
 
 	.main-home {
-	  background: url('../images/QuantumComputing.jpeg') no-repeat;
+		 background: url('../images/QuantumComputing-Mobile.jpeg') no-repeat;
 	}
+
+
+
+
 }
