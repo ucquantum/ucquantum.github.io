@@ -282,10 +282,6 @@ a:hover, a:active, a:focus {
   background: url('../images/QuantumChicago.jpg') no-repeat;
 }
 
-.main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
-}
-
 .main-events {
   background: url('../images/QuantumEvents.jpg') no-repeat;
 }
@@ -334,16 +330,15 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .col-md-6 {
-  padding-top: 22px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
 
 #about .col-md-6 img {
-  padding: 22px 0px 22px 22px;
+  padding: 0px 0px 22px 22px;
 }
 
 #about .col-md-4 {
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
 
 #about .col-md-4 img {
@@ -361,9 +356,20 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
+#events .col-md-4 {
+  padding-bottom: 24px;
+}
+
+#events .col-md-4 img {
+  padding-top: 12px;
+}
+
 #events .col-md-6 {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-bottom: 24px;
+}
+
+#events .col-md-6 img {
+  padding: 0px 0px 22px 22px;
 }
 
 #events .events-thumb {
@@ -386,8 +392,8 @@ a:hover, a:active, a:focus {
 }
 
 #events .col-md-12 p {
-  padding-top: 22px;
-  text-align: center;
+  text-align: left;
+	padding-bottom: 24px;
 }
 
 
