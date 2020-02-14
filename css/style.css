@@ -52,6 +52,14 @@ p {
     letter-spacing: 0.2px;
 }
 
+ul {
+		 color: #777;
+		 font-size: 15px;
+		 font-weight: 300;
+	   line-height: 26px;
+		 letter-spacing: 0.2px;
+}
+
 .btn-success:focus {
   background-color: #000;
   border-color: transparent;
@@ -334,7 +342,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-6 img {
-  padding: 0px 0px 22px 22px;
+  padding: 28px 0px 22px 22px;
 }
 
 #about .col-md-4 {
