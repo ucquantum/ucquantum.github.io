@@ -9,7 +9,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy
+    Typography
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -206,7 +206,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-nav li a {
     color: #777;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -451,7 +451,7 @@ a:hover, a:active, a:focus {
 footer {
     background: #000;
     color: #ffffff;
-    padding: 80px 0px;
+    padding: 40px 0px;
     position: relative;
 }
 
@@ -462,7 +462,7 @@ footer .col-md-4 .fa {
 
 footer hr {
   border-color: #121212;
-  margin-top: 62px;
+  margin-top: 20px;
   margin-bottom: 42px;
 }
 
@@ -528,12 +528,12 @@ footer .footer-copyright {
     text-align: center;
     vertical-align: middle;
     position: relative;
-    margin: 22px 12px 10px 12px;
+    margin: 0px 12px 10px 12px;
 }
 
 .social-icon li a:hover {
-    border-color: #bfba55;
-    color: #bfba55;
+    border-color: #800000;
+    color: #800000;
     transform: scale(1.1);
 }
 
