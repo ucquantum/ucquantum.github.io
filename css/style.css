@@ -9,7 +9,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy
+    Typography
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -50,6 +50,14 @@ p {
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0.2px;
+}
+
+ul {
+		 color: #777;
+		 font-size: 15px;
+		 font-weight: 300;
+	   line-height: 26px;
+		 letter-spacing: 0.2px;
 }
 
 .btn-success:focus {
@@ -206,7 +214,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-nav li a {
     color: #777;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -282,10 +290,6 @@ a:hover, a:active, a:focus {
   background: url('../images/QuantumChicago.jpg') no-repeat;
 }
 
-.main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
-}
-
 .main-events {
   background: url('../images/QuantumEvents.jpg') no-repeat;
 }
@@ -334,16 +338,15 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .col-md-6 {
-  padding-top: 22px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
 
 #about .col-md-6 img {
-  padding: 22px 0px 22px 22px;
+  padding: 28px 0px 22px 22px;
 }
 
 #about .col-md-4 {
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
 
 #about .col-md-4 img {
@@ -361,9 +364,20 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
+#events .col-md-4 {
+  padding-bottom: 24px;
+}
+
+#events .col-md-4 img {
+  padding-top: 12px;
+}
+
 #events .col-md-6 {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-bottom: 24px;
+}
+
+#events .col-md-6 img {
+  padding: 0px 0px 22px 22px;
 }
 
 #events .events-thumb {
@@ -386,8 +400,8 @@ a:hover, a:active, a:focus {
 }
 
 #events .col-md-12 p {
-  padding-top: 22px;
-  text-align: center;
+  text-align: left;
+	padding-bottom: 24px;
 }
 
 
@@ -445,7 +459,7 @@ a:hover, a:active, a:focus {
 footer {
     background: #000;
     color: #ffffff;
-    padding: 80px 0px;
+    padding: 40px 0px;
     position: relative;
 }
 
@@ -456,7 +470,7 @@ footer .col-md-4 .fa {
 
 footer hr {
   border-color: #121212;
-  margin-top: 62px;
+  margin-top: 20px;
   margin-bottom: 42px;
 }
 
@@ -522,12 +536,12 @@ footer .footer-copyright {
     text-align: center;
     vertical-align: middle;
     position: relative;
-    margin: 22px 12px 10px 12px;
+    margin: 0px 12px 10px 12px;
 }
 
 .social-icon li a:hover {
-    border-color: #bfba55;
-    color: #bfba55;
+    border-color: #800000;
+    color: #800000;
     transform: scale(1.1);
 }
 
